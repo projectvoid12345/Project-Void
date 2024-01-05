@@ -1,0 +1,73 @@
+         body {
+            background-color: black;
+            background-image: url('https://i.pinimg.com/originals/bc/8d/02/bc8d026b258afad9a3d4b1b84ed6721f.gif');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            margin-bottom: 0;
+            height: 604px;
+            scrollbar-width: thin;
+            scrollbar-color: black;
+            scollbar: black;
+            border: 0px solid #00ff00;
+        }
+
+        ::-webkit-scrollbar {
+            width: 8px;
+            background-color: black;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background-color: black;
+            border: 1px solid #00ff00;
+            border-radius: 10px;
+        }
+
+        .Project-Void-Title {
+            font-size: 36px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 40vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: black;
+            margin-bottom: 0px;
+            text-shadow: -1px -1px 0 #00ff00, 1px -1px 0 #00ff00, -1px 1px 0 #00ff00, 1px 1px 0 #00ff00;
+        }
+
+        .Announcements-Title {
+            font-size: 28px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 0vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: #fff;
+            margin-bottom: 15px;
+        }
+
+        .Announcement-text {
+            display: flex;
+            flex-direction: column;
+            justify-content: flex-start;
+            align-items: flex-start;
+            font-size: 13px;
+            text-align: left;
+            font-family: Arial, sans-serif;
+            color: #00ff00;
+            margin-left: 20px;
+            max-width: 600px;
+            padding-left: 350px;
+            padding-top: 20px; /* Added padding-top for spacing */
+        }
+
+        .Announcement-text h3:before {
+            content: "\2022";
+            margin-right: 5px;
+            margin-left: 0px;
+            font-size: 20px;
+        }

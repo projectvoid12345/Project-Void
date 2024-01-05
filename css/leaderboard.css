@@ -1,0 +1,62 @@
+.container {
+  background: none;
+  border-radius: 10px;
+  padding: 40px;
+  color: white;
+  text-align: center;
+  font-family: sans-serif;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+}
+
+.container h1 {
+  font-weight: bold;
+  margin-top: 0;
+  font-size: 28px;
+}
+
+.container label {
+  display: block;
+  margin-top: 20px;
+  font-weight: bold;
+  font-size: 24px;
+}
+
+.watermark {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: black;
+  color: #00ff00;
+  padding: 5px 10px;
+  border-radius: 10px;
+  font-weight: bold;
+  font-size: 18px;
+  border: 2px solid #00ff00;
+}
+
+.leaderboard {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.leaderboard h2 {
+  margin-bottom: 10px;
+  color: #00ff00;
+  font-size: 26px;
+}
+
+.leaderboard ol {
+  list-style-position: inside;
+  padding-left: 0;
+}
+
+.leaderboard li {
+  margin-bottom: 5px;
+  font-weight: bold;
+  font-size: 20px;
+}

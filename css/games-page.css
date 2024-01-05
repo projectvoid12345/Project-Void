@@ -1,0 +1,196 @@
+         body {
+            background-color: black;
+            background-image: url('https://i.pinimg.com/originals/bc/8d/02/bc8d026b258afad9a3d4b1b84ed6721f.gif');
+            background-repeat: no-repeat;
+            background-size: 100% 100%;
+            background-position: center;
+            margin-bottom: 0;
+            height: 700px;
+            scrollbar-width: thin;
+            scrollbar-color: black;
+            scollbar: black;
+            border: 0px solid #00ff00;
+        }
+
+        .Project-Void-Title {
+            font-size: 30px;
+            display: top;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 30vh;
+            text-align: center;
+            font-family: Arial, sans-serif;
+            color: black;
+            text-shadow: -1px -1px 0 #00ff00, 1px -1px 0 #00ff00, -1px 1px 0 #00ff00, 1px 1px 0 #00ff00;
+            margin-top: -25px;
+            margin-bottom: 60px;
+        }
+
+            .Row-1 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: -100px;
+        }
+
+            .Row-2 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+
+            .Row-3 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+
+            .Row-4 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+
+            .Row-5 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+
+            .Row-6 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+
+            .Row-7 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        
+            .Row-8 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        
+            .Row-9 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+                
+            .Row-10 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+                
+            .Row-11 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+                
+            .Row-12 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+
+            .Row-13 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        
+            .Row-14 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        
+            .Row-15 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        
+            .Row-16 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        
+            .Row-17 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+        
+            .Row-18 {
+            display: flex;
+            display: top;
+            justify-content: center;
+            margin-top: 0px;
+        }
+
+            .button {
+            text-decoration: none;
+            color: #fff;
+            font-size: 1.3em;
+            font-family: 'Quicksand', sans-serif;
+            font-weight: bold;
+            transition: transform 0.3s ease;
+            background-color: #000000;
+            border-radius: 10px;
+            padding: 4px 25px; /* Increased padding for width */
+            position: relative; /* Added position relative */
+            margin-right: 15px;
+            margin-top: 15px;
+        }
+
+            .button:before {
+            content: "";
+            position: absolute;
+            top: -2px;
+            left: -2px;
+            right: -2px;
+            bottom: -2px;
+            border: 3px solid #fff; /* Green outline for the gray box */
+            border-radius: 10px;
+            z-index: -1;
+        }
+
+            .button:hover {
+            transform: scale(0.95);
+        }
+
+        @keyframes fadeIn {
+            0% {
+                opacity: 0;
+                transform: translateY(-10px);
+            }
+            100% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
